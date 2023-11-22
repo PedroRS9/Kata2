@@ -1,12 +1,12 @@
 package software.ulpgc.kata2;
 
 public class Iris {
-    private int id;
-    private double sepalLengthCm;
-    private double sepalWidthCm;
-    private double petalLengthCm;
-    private double petalWidthCm;
-    private String species;
+    private final int id;
+    private final double sepalLengthCm;
+    private final double sepalWidthCm;
+    private final double petalLengthCm;
+    private final double petalWidthCm;
+    private final String species;
 
     public Iris(int id, double sepalLengthCm, double sepalWidthCm, double petalLengthCm, double petalWidthCm, String species) {
         this.id = id;
